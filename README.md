@@ -2,7 +2,7 @@
 ##INSTALL
 ```
 $ cd $HOME
-$ git clone 
+$ git clone git@github.com:Shiohata/dotfiles.git 
 $ cd dotfiles
 $ ~/dotfiles/install.sh
 ```
