@@ -92,20 +92,3 @@ set tabstop=4
 set autoindent "オートインデント
 set expandtab "タブ文字の代わりに空白(ソフトタブ)
 set shiftwidth=4 "オートインデント時にインデントする文字数
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" deinでのプラグイン管理""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-if &compatible
-  set nocompatible
-endif
-set runtimepath^=~/.vim/dein/repos/github.com/Shougo/dein.vim
-
-call dein#begin(expand('~/.vim/dein'))
-
-call dein#add('Shougo/unite.vim')
-
-call dein#end()
-
-filetype plugin indent on
-

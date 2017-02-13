@@ -130,10 +130,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 autoload colors
 colors
 
-# プロンプトのカスタマイズ
-# export PS1='${ret_status}%{$fg_bold[green]%}%p %{$fg[red]%}%c %{$fg_bold[blue]%}'
-export PS1='${ret_status}%{$fg_bold[green]%}%p %{$fg[red]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
-
 #################
 #その他
 #################
