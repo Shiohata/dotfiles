@@ -51,8 +51,7 @@ setopt pushd_ignore_dups
 setopt auto_cd
 # cdしたら自動でlsする
 function chpwd() {
-  [[ $JUST_BEFORE_PWD != $PWD ]] && ls
-   JUST_BEFORE_PWD=$PWD
+  ls -G
 }
 
 #################
